@@ -1,0 +1,403 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f8f8f8;
+    color: #000;
+  }
+  
+  /* Header */
+  header {
+    background-color: #6b859c;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+  }
+  
+  .logo-img {
+    height: 105px;
+    width: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Welcome Banner */
+  .welcome-banner {
+    background-color: #6b859c;
+    color: white;
+    text-align: center;
+    margin: 20px 60px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #000;
+  }
+  
+  /* Grid Container (used in homepage and job spec) */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  
+  /* Boxes */
+  .box {
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border: 1px solid #aaa;
+    text-align: center;
+  }
+  
+  .text-box {
+    text-align: center;
+  }
+  
+  .emoji-icon {
+    font-size: 80px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Job Specification Section */
+  .job-spec {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Team Section */
+  .team-section {
+    margin: 40px 60px;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+  }
+  
+  .team-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  
+  .team-icon {
+    font-size: 40px;
+    margin-right: 20px;
+  }
+  
+  .team-info h4 {
+    margin: 0;
+  }
+  
+  .team-info p {
+    margin: 5px 0;
+  }
+  /* Company Section */
+.company-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 40px 60px;
+    padding: 20px;
+    background-color: #eaeaea;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+  }
+  
+  .company-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .company-text h3 {
+    margin-bottom: 10px;
+  }
+  
+  .company-image img {
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    display: flex;
+    align-items: center;
+    margin: 40px 60px;
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #aaa;
+  }
+  
+  .contact-icon {
+    font-size: 60px;
+    margin-right: 20px;
+  }
+  
+  .contact-text h3 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-text p {
+    margin: 5px 0;
+  }
+  .qualification-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    align-items: center;
+  }
+  
+  .icon-box {
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #aaa;
+  }
+  
+  .center-box {
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #aaa;
+  }
+  
+  .candidate-box {
+    max-width: 900px;
+    margin: 30px auto 0 auto;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #aaa;
+  }
+  
+  .emoji-icon {
+    font-size: 60px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+  }
+  
+  header {
+    background-color: #6b8aa5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border: 1px solid black;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  nav a.active {
+    text-decoration: underline;
+  }
+  
+  .course-section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .course-card {
+    background-color: #d9d9d9;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .course-card h2 {
+    margin-top: 0;
+  }
+  
+  .links {
+    display: flex;
+    gap: 40px;
+    padding-top: 10px;
+  }
+  
+  .links a {
+    text-decoration: underline;
+    color: black;
+  }
+  .application-form {
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .application-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #6b8aa5;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 10px;
+  }
+  .thank-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+  }
+  
+  .thank-you-box {
+    background-color: #6b8aa5;
+    color: black;
+    font-size: 20px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .thumbs-up {
+    font-size: 50px;
+  }
+
+  /* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  header, .welcome-banner, .team-section, .company-section, .contact-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+  }
+
+  .grid-container, .qualification-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .team-member, .contact-section, .company-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company-image img {
+    max-width: 100%;
+    margin-top: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .course-section, .application-form, .candidate-box {
+    padding: 20px 10px;
+    margin: 20px 10px;
+  }
+
+  .thank-you-box {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .emoji-icon {
+    font-size: 50px;
+  }
+
+  .contact-icon, .team-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+}
+.team-icon {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover; /* crops to fit */
+}
